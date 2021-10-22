@@ -1,0 +1,52 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.form-label{
+  font-size: 1.5rem;
+}
+
+.footer{
+  text-align: center;
+}
+
+.btn{
+  top:10px
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+.fixed-btn {
+  position: fixed;
+  top: 80px;
+  right: 80px;
+  height: 100px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 1000px) {
+  .fixed-btn{
+    display: none;
+  }
+}

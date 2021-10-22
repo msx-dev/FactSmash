@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/FactSmash"><i class="fas fa-book fa-1x"></i> FactSmash</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/submit">Submit a Fact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-book fa-6x"></i>
+    <h1 class="display-2">FactSmash</h1>
+    <h3>A collection of disproved facts!</h3>
+    <hr>
+
+    <a class="btn btn-secondary btn-lg" href="/FactSmash" role="button">Enter the Facts Collection!</a>
+    <hr>
+    <p>Feel free to login or register to add any new disproven facts you know!</p>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>

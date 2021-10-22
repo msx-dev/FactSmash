@@ -1,0 +1,62 @@
+<%- include('partials/header') %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/FactSmash"><i class="fas fa-book fa-1x"></i> FactSmash</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/submit">Submit a Fact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Leave/Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <h1 class="display-3">Smash a Fact</h1>
+    <form action="/submit" method="POST">
+
+      
+      <div class="form-group">
+        <hr>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+          <label for="formFile" class="form-label">Fact Title</label>
+          <input type="text" class="form-control text-center" name="title" placeholder="Set Fact Title">
+          </div>
+          <div class="col"></div>
+        </div>
+        <hr>
+        <label for="formFile" class="form-label">Fact</label>
+        <textarea type="text" class="form-control text-center" name="fact" placeholder="What fact do you want to share?"></textarea>
+        <hr>
+        <label for="formFile" class="form-label">Fact Proof</label>
+        <input type="text" class="form-control text-center" name="proof" placeholder="Share URL with proof, maybe?">
+      </div>
+      
+      <button type="submit" class="btn btn-dark">Smash this Fact!</button>
+    </form>
+
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
