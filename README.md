@@ -9,12 +9,12 @@ Feel free to check it out here: https://agile-beyond-10964.herokuapp.com/
 
 You can also see some screenshots below: 
 
-![alt text](./public/Screenshot1.png)
+![Screenshot1](./public/Screenshot1.png)
 
-![alt text](./public/Screenshot2.png)
+![Screenshot2](./public/Screenshot2.png)
 
-![alt text](./public/Screenshot3.png)
+![Screenshot3](./public/Screenshot3.png)
 
-![alt text](./public/Screenshot4.png)
+![Screenshot4](./public/Screenshot4.png)
 
-![alt text](./public/Screenshot5.png)
+![Screenshot5](./public/Screenshot5.png)
